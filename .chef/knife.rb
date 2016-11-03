@@ -7,3 +7,6 @@ node_name                "manjubr"
 client_key               "#{current_dir}/manjubr.pem"
 chef_server_url          "https://api.chef.io/organizations/merlin"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+cookbook_copyright       "merlin"
+cookbook_license         "apachev2"
+cookbook_email           "majmagic@gmail.com"
