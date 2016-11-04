@@ -13,6 +13,8 @@ Vagrant.configure("2") do |config|
 
   config.butcher.enabled = true
 
+  config.berkshelf.enabled = true
+
   config.vm.provision :chef_client do |chef|
     chef.provisioning_path = "/etc/chef"
     chef.chef_server_url = "https://api.chef.io/organizations/merlin"
